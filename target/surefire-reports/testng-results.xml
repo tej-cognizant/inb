@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-30T11:37:36 IST" name="ZigWheels Test Suite" finished-at="2026-01-30T11:42:35 IST" duration-ms="299193">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cts.inb.cucumber.CucumberTestRunner@3cd3e762]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-01-30T11:37:36 IST" name="All Tests" finished-at="2026-01-30T11:39:35 IST" duration-ms="119829">
+      <class name="com.cts.inb.tests.YamahaBikesTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.cts.inb.tests.YamahaBikesTest@7d8995e]" started-at="2026-01-30T11:38:10 IST" name="setup" finished-at="2026-01-30T11:38:16 IST" duration-ms="6254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testYamahaBikesUnder4Lakhs()[pri:1, instance:com.cts.inb.tests.YamahaBikesTest@7d8995e]" started-at="2026-01-30T11:38:16 IST" name="testYamahaBikesUnder4Lakhs" description="Test Yamaha bikes under 4 Lakhs display functionality" finished-at="2026-01-30T11:38:35 IST" duration-ms="18854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testYamahaBikesUnder4Lakhs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cts.inb.tests.YamahaBikesTest@7d8995e]" started-at="2026-01-30T11:38:35 IST" name="tearDown" finished-at="2026-01-30T11:38:37 IST" duration-ms="1381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cts.inb.tests.YamahaBikesTest -->
+      <class name="com.cts.inb.tests.UsedCarsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.cts.inb.tests.UsedCarsTest@42a48628]" started-at="2026-01-30T11:39:00 IST" name="setup" finished-at="2026-01-30T11:39:06 IST" duration-ms="6484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUsedCarsInChennai()[pri:2, instance:com.cts.inb.tests.UsedCarsTest@42a48628]" started-at="2026-01-30T11:39:06 IST" name="testUsedCarsInChennai" description="Test to display used cars in Chennai" finished-at="2026-01-30T11:39:17 IST" duration-ms="10882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUsedCarsInChennai -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cts.inb.tests.UsedCarsTest@42a48628]" started-at="2026-01-30T11:39:17 IST" name="tearDown" finished-at="2026-01-30T11:39:18 IST" duration-ms="1356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cts.inb.tests.UsedCarsTest -->
+      <class name="com.cts.inb.tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.cts.inb.tests.HomePageTest@747ddf94]" started-at="2026-01-30T11:37:36 IST" name="setup" finished-at="2026-01-30T11:37:42 IST" duration-ms="6535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNavigateToUpcomingBikes()[pri:1, instance:com.cts.inb.tests.HomePageTest@747ddf94]" started-at="2026-01-30T11:37:42 IST" name="testNavigateToUpcomingBikes" description="Test navigation to Upcoming Bikes from Home Page" finished-at="2026-01-30T11:37:51 IST" duration-ms="8466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToUpcomingBikes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cts.inb.tests.HomePageTest@747ddf94]" started-at="2026-01-30T11:37:51 IST" name="tearDown" finished-at="2026-01-30T11:37:52 IST" duration-ms="1342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.cts.inb.tests.HomePageTest@747ddf94]" started-at="2026-01-30T11:37:52 IST" name="setup" finished-at="2026-01-30T11:37:58 IST" duration-ms="6175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNavigateToUsedCars()[pri:2, instance:com.cts.inb.tests.HomePageTest@747ddf94]" started-at="2026-01-30T11:37:58 IST" name="testNavigateToUsedCars" description="Test navigation to Used Cars from Home Page" finished-at="2026-01-30T11:38:09 IST" duration-ms="10561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigateToUsedCars -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cts.inb.tests.HomePageTest@747ddf94]" started-at="2026-01-30T11:38:09 IST" name="tearDown" finished-at="2026-01-30T11:38:10 IST" duration-ms="1314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cts.inb.tests.HomePageTest -->
+      <class name="com.cts.inb.tests.UpcomingBikesTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.cts.inb.tests.UpcomingBikesTest@130d63be]" started-at="2026-01-30T11:38:37 IST" name="setup" finished-at="2026-01-30T11:38:40 IST" duration-ms="3911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testYamahaBikesUnder4Lakhs()[pri:1, instance:com.cts.inb.tests.UpcomingBikesTest@130d63be]" started-at="2026-01-30T11:38:40 IST" name="testYamahaBikesUnder4Lakhs" description="Test to display Yamaha bikes under 4 Lakhs from Upcoming Bikes section" finished-at="2026-01-30T11:38:58 IST" duration-ms="17703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testYamahaBikesUnder4Lakhs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cts.inb.tests.UpcomingBikesTest@130d63be]" started-at="2026-01-30T11:38:58 IST" name="tearDown" finished-at="2026-01-30T11:39:00 IST" duration-ms="1461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cts.inb.tests.UpcomingBikesTest -->
+      <class name="com.cts.inb.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.cts.inb.tests.LoginTest@293a5bf6]" started-at="2026-01-30T11:39:18 IST" name="setup" finished-at="2026-01-30T11:39:23 IST" duration-ms="4296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testGoogleLogin()[pri:3, instance:com.cts.inb.tests.LoginTest@293a5bf6]" started-at="2026-01-30T11:39:23 IST" name="testGoogleLogin" description="Test Google login functionality and capture error screenshot" finished-at="2026-01-30T11:39:34 IST" duration-ms="11520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoogleLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cts.inb.tests.LoginTest@293a5bf6]" started-at="2026-01-30T11:39:34 IST" name="tearDown" finished-at="2026-01-30T11:39:35 IST" duration-ms="1282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cts.inb.tests.LoginTest -->
+    </test> <!-- All Tests -->
+    <test started-at="2026-01-30T11:39:35 IST" name="Cucumber Features" finished-at="2026-01-30T11:42:35 IST" duration-ms="179341">
+      <class name="com.cts.inb.tests.HomePageTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.cts.inb.tests.HomePageTest@747ddf94]" started-at="2026-01-30T11:37:35 IST" name="setupReport" finished-at="2026-01-30T11:37:36 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:com.cts.inb.tests.HomePageTest@747ddf94]" started-at="2026-01-30T11:42:35 IST" name="tearDownReport" finished-at="2026-01-30T11:42:35 IST" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- com.cts.inb.tests.HomePageTest -->
+      <class name="com.cts.inb.cucumber.CucumberTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cts.inb.cucumber.CucumberTestRunner@3cd3e762]" started-at="2026-01-30T11:39:35 IST" name="setUpClass" finished-at="2026-01-30T11:39:36 IST" duration-ms="434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d91d2da]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cts.inb.cucumber.CucumberTestRunner@3cd3e762]" started-at="2026-01-30T11:39:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-30T11:40:04 IST" duration-ms="27671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Open Upcoming Bikes from New Bikes menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Navigate from homepage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cts.inb.cucumber.CucumberTestRunner@3cd3e762]" started-at="2026-01-30T11:40:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-30T11:40:37 IST" duration-ms="33427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Open Used Cars from More menu"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Navigate from homepage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cts.inb.cucumber.CucumberTestRunner@3cd3e762]" started-at="2026-01-30T11:40:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-30T11:40:49 IST" duration-ms="12393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify cucumber wiring"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Simple smoke check"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cts.inb.cucumber.CucumberTestRunner@3cd3e762]" started-at="2026-01-30T11:40:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-30T11:41:26 IST" duration-ms="36632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View Yamaha upcoming bikes under 2 lakhs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Upcoming bikes navigation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cts.inb.cucumber.CucumberTestRunner@3cd3e762]" started-at="2026-01-30T11:41:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-30T11:42:02 IST" duration-ms="35896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["View used cars in Chennai"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Browse used cars"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cts.inb.cucumber.CucumberTestRunner@3cd3e762]" started-at="2026-01-30T11:42:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-01-30T11:42:35 IST" duration-ms="32861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["List Yamaha bikes under 4 lakhs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["View Yamaha upcoming bikes under 4 lakhs"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cts.inb.cucumber.CucumberTestRunner@3cd3e762]" started-at="2026-01-30T11:42:35 IST" name="tearDownClass" finished-at="2026-01-30T11:42:35 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cts.inb.cucumber.CucumberTestRunner -->
+    </test> <!-- Cucumber Features -->
+  </suite> <!-- ZigWheels Test Suite -->
+</testng-results>

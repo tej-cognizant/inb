@@ -1,0 +1,6 @@
+com\cts\inb\tests\BaseTest.class
+com\cts\inb\tests\UpcomingBikesTest.class
+com\cts\inb\tests\LoginTest.class
+com\cts\inb\tests\HomePageTest.class
+com\cts\inb\tests\YamahaBikesTest.class
+com\cts\inb\tests\UsedCarsTest.class

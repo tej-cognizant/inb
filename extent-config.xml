@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Theme: dark or standard -->
+        <theme>dark</theme>
+        
+        <!-- Report title -->
+        <documentTitle>Automation Test Report</documentTitle>
+        
+        <!-- Report name displayed on report -->
+        <reportName>Identify New Bikes - Test Execution Report</reportName>
+        
+        <!-- Encoding -->
+        <encoding>UTF-8</encoding>
+        
+        <!-- Timestamp format -->
+        <timeStampFormat>MMM dd, yyyy HH:mm:ss</timeStampFormat>
+        
+        <!-- JavaScript code for custom styling or functionality -->
+        <js><![CDATA[
+            // Custom JavaScript can be added here
+        ]]></js>
+        
+        <!-- CSS for custom styling -->
+        <css><![CDATA[
+            /* Custom CSS can be added here */
+        ]]></css>
+    </configuration>
+</extentreports>
